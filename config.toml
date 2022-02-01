@@ -1,0 +1,58 @@
+baseUrl = "/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+staticDir = "static"
+googleAnalytics = "G-DVGY6CJ3J0"
+
+[params]
+# dir name of your blog content (default is `content/posts`)
+contentTypeName = "posts"
+# ["orange", "blue", "red", "green", "pink"]
+themeColor = "orange"
+# if you set this to 0, only submenu trigger will be visible
+showMenuItems = 2
+# set theme to full screen width
+fullWidthTheme = true
+# center theme with default width
+centerTheme = false
+# set a custom favicon (default is a `themeColor` square)
+# favicon = "favicon.ico"
+
+[languages]
+[languages.en]
+title = "Evades"
+subtitle = "Development Blog"
+keywords = ""
+copyright = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+contentDir = "content/english"
+languageName = "English"
+weight = 10
+
+[languages.ru]
+title = "Евадес"
+subtitle = "Блог Разработки"
+keywords = ""
+copyright = ""
+menuMore = "Показать больше"
+readMore = "Другие блоги"
+readOtherPosts = "Прочитать остальные посты"
+contentDir = "content/russian"
+languageName = "Russian"
+weight = 20
+
+[languages.en.params.logo]
+logoText = "Evades Blog"
+logoHomeLink = "/"
+
+[languages.ru.params.logo]
+logoText = "Евадес Блог"
+logoHomeLink = "/"
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "blog.evades.io"
+URL = "s3://blog.evades.io?region=us-east-1"

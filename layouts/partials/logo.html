@@ -1,0 +1,6 @@
+{{ $prefix := replace $.Site.LanguagePrefix "/" "" }}
+<a href="/{{ $prefix | safeURL }}">
+  <div class="logo">
+    {{ $.Site.Params.Logo.logoText }}
+  </div>
+</a>
