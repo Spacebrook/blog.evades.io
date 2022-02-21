@@ -14,7 +14,7 @@ Hey everyone, and welcome to the first official Evades blog post!
 Evades is going to go through some major changes in the coming year, so I'll use this blog as a way to introduce the overall plan, and the reasoning behind it.
 
 The changes are going to be widespread, including:
-* New gameplay 
+* New gameplay
 * New art
 * New music and sounds
 * New technology
