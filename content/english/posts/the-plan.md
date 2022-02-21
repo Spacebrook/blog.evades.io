@@ -4,11 +4,13 @@ date = "2022-01-30T15:00:00-00:00"
 author = "Stovoy"
 authorTwitter = ""
 cover = ""
+tags = ["announcement"]
+keywords = ["evades.io", "roadmap", "plan", "announcement"]
 description = "What's next?"
 showFullContent = false
 readingTime = false
 +++
-## Intro
+
 Hey everyone, and welcome to the first official Evades blog post!
 
 Evades is going to go through some major changes in the coming year, so I'll use this blog as a way to introduce the overall plan, and the reasoning behind it.
